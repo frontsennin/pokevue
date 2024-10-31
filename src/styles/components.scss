@@ -1,0 +1,26 @@
+.poke-card {
+    background-color: #9e1111;
+    color: #fff;
+    padding: 16px;
+    border: 4px solid #5e5e5e;
+    border-radius: 16px;
+    margin: 16px 0;
+    min-height: 70vh;
+
+    .poke-image-section {
+        padding: 24px 16px;
+        background-color: aqua;
+        border: solid 2px #afaf20;
+
+        .poke-image {
+            height: 30vh;
+            width: auto;
+        }
+    }
+}
+
+.poke-card:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #9e1111;
+}

@@ -1,0 +1,31 @@
+@import url(/node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(/node_modules/bootstrap-icons/font/bootstrap-icons.min.css);
+@import url(/node_modules/vue-loading-overlay/dist/css/index.css);
+@import url(/node_modules/vue-toast-notification/dist/theme-default.css);
+
+@import url(./components.scss);
+
+* {
+    overflow: hidden;
+}
+
+.content {
+    background-color: #22292f;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 999px) {
+
+    .md-view {
+        display: initial;
+    }
+}
+
+@media (min-width: 1000px) {
+    .md-view {
+        display: none;
+    }
+}
