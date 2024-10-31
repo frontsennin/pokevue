@@ -2,11 +2,7 @@
     <nav class="navbar  navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="/home">Poke Vue</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-label="Toggle navigation" @click="showColapssedMenu = !showColapssedMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" >
+            <div class="collapse navbar-collapse">
                 <div class="navbar-nav  me-auto mb-2 mb-lg-0">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item" v-for="(link, index) in linkList" :key="index">
